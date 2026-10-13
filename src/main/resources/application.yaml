@@ -1,9 +1,9 @@
 spring:
   application:
-    name: myDB
+    name: myDB_Week8
   datasource:
-    url: jdbc:mysql://localhost:3306/mymarket?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/week7?createDatabaseIfNotExist=true
     username: root
-    password: P@ssword
+    password: sqlpwd
   jpa:
     show-sql: true
