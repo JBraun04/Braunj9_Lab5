@@ -57,7 +57,8 @@ public class ProductService {
 
     public void removeProduct() {
 
-        var product = productRepository.findById(6L)
+        Product product;
+        product = productRepository.findById(5L)
                 .orElseThrow();
 
         productRepository.delete(product);

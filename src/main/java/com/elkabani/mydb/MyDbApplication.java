@@ -21,7 +21,7 @@ public class MyDbApplication {
     //    service.showEntityState();
         //service.makeNewProductAndCategory();
         //service.makeNewProduct();
-        service.removeProduct();
+        //service.removeProduct();
   /*    var user = User.builder()
                 .name("John")
                 .email("john@example.com")
